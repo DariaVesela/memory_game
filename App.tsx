@@ -7,15 +7,10 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-  FlatList,
+  SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View,
+  FlatList, TouchableOpacity, 
 } from 'react-native';
+
 
 const App = (): React.JSX.Element => {
   const data = Array.from({ length: 32 }).map((_, index) => ({ key: String(index) }));
